@@ -4,11 +4,12 @@ import Bio from './Components/Bio';
 import Projects from './Components/Projects';
 import Social from './Components/Social';
 import styled from 'styled-components';
+import bgImage from './Img/celebration.png';
 
 const Bg = styled.div`
   display: flex;
   aling-items: center;
-  background: #fefefe;
+  background-image: url(${bgImage});
   `
 const Bg2 = styled.div`
   background-color: #1e1e1e;
