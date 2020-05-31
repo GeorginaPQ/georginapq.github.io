@@ -9,6 +9,9 @@ const Header = styled.header`
     padding: 1rem 2rem;
     justify-content: space-between;
     align-items: center;
+    @media (max-width:767px) {
+        justify-content:center;
+    }
     `
 const Links = styled.a`
     font-family: 'Cabin', sans-serif;
@@ -16,6 +19,9 @@ const Links = styled.a`
     `
 const Logo = styled.div`
     width: 200px;
+    @media (max-width: 767px) {
+        margin: 0 auto;
+    }
     
 `
 
@@ -27,8 +33,8 @@ const Nav = () => {
                 <Logo>
                     <img src={logowhite}></img>
                 </Logo>                
-                <ul className="nav pr-6">
-                    <li className="nav-item">
+                <ul className="d-flex p-0 m-0 mt-4">
+                    <li className="">
                         <Links>
                             <Link 
                                 activeClass="active"
@@ -52,7 +58,7 @@ const Nav = () => {
                                 offset={0}
                                 duration={500}
                                 className="nav-link text-light"
-                            >About me                        
+                            >About                       
                             </Link>
                         </Links>
                     </li>
