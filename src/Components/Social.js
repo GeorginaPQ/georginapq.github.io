@@ -45,23 +45,25 @@ const Social = () => {
                     <img className="w-100"src={geo}></img>
                 </Card>
                 <div className="border-left p-2 pl-md-4 ml-md-4 border-white d-flex align-items-start flex-column justify-content-center">
-                    <bold>
+                    <div className="font-weight-bold">
                         <h4 className="text-light">Email</h4>
-                    </bold>
+                    </div>
                         <a className="text-light mb-4">giorginapqe@gmail.com</a>
-                        <bold>
+                    <div className="font-weight-bold">
                         <h4 className="text-light">Phone</h4>
-                    </bold>
+                    </div>
                         <p className="text-light">+52 33-29-83-89-85</p>
                 </div>
             </CardContainer>
-            <h3 className="text-light text-center">Contacto</h3>
+            <h3 className="text-light text-center">Contact</h3>
             <div className="p-3 mt-1 d-flex justify-content-center align-items-center" id="social">
                 <Icons href="https://github.com/GeorginaPQ "><FaGithub/></Icons>
                 <Icons href="https://www.linkedin.com/in/georgina-p%C3%A9rez-quintana/"><FaLinkedin/></Icons>
                 <Icons href="https://www.linkedin.com/in/georgina-p%C3%A9rez-quintana/"><FaTwitter/></Icons>
             </div>
-            <h6 className="text-secondary p-3 mt-1 d-flex justify-content-center align-items-center flex-column flex-sm-row text-align-center"> <span>geoPQ © All rights reserved. </span><span>Made with ❤ and React</span></h6>
+            <h6 className="text-secondary p-3 mt-1 d-flex justify-content-center align-items-center flex-column flex-sm-row text-align-center"> 
+                <span>geoPQ © All rights reserved. </span><span>Made with ❤ and React</span>
+            </h6>
         </div>
     )
 }
