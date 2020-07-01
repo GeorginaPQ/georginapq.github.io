@@ -8,7 +8,7 @@ import bgImage from './Img/celebration.png';
 
 const Bg = styled.div`
   display: flex;
-  aling-items: center;
+  align-items: center;
   background-image: url(${bgImage});
   `
 const Bg2 = styled.div`
