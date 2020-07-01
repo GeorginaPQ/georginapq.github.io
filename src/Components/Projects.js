@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
-import Cipher from '../Img/cipher1.png';
 import UrbanCat from '../Img/UrbanCat.png';
 import Movies from '../Img/movies.png'
 import SocialNetwork from '../Img/SocialNetwork.png';
@@ -12,7 +11,7 @@ const Project = styled.div`
     background-color: #E9ECEF;
     display: flex;
     justify-content: center;
-    aling-items: center;
+    align-items: center;
     flex-wrap:nowrap;
     box-shadow: -2px 29px 78px -32px rgba(244,247,247,0.71);
 `
