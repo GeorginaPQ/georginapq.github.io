@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import Cipher from '../Img/cipher1.png';
-import Labnotes from '../Img/labnotes.png';
+import UrbanCat from '../Img/UrbanCat.png';
 import Movies from '../Img/movies.png'
 import SocialNetwork from '../Img/SocialNetwork.png';
 import styled from 'styled-components';
@@ -84,6 +84,42 @@ const  Button2 = styled.a`
 const Projects = () => {
     return (
             <>
+            <Project className="p-3 p-sm-4 p-lg-5 mb-5 container align-items-center flex-column flex-md-row">
+                <div className="col col-sm-6 pl-2">
+                    <Img className="w-100" src={UrbanCat}></Img>
+                </div>
+                <div className="w-100">
+                    <div  className="text-right mr-2 font-weight-bold">
+                        <span>Junio 2020</span>
+                    </div>
+                    <h1 className="display-6">Urban Cat</h1>
+                    <p>Boutique, fashion & clothes digital retailing.                        
+                    </p>
+                    <div>
+                        <span className="font-weight-bold">Credits:</span>
+                        <span>Developed with Eugenia Najar, Laura Barragán, Ariadne Malacara and Mónica Martínez</span>
+                    </div>
+                    <div>
+                        <span className="font-weight-bold">Role:</span>
+                        <span>Front-End Developer</span>
+                    </div>
+                    
+                    <div className="d-flex flex-wrap flex-md-nowrap justify-content-center">
+                        <Tags>React</Tags>
+                        <Tags>Styled Components</Tags>
+                    </div>
+                    <div className="pt-3 d-flex justify-content-center align-items-center">
+                        <Button className="text-decoration-none" 
+                            target="_blank" 
+                            href="https://github.com/GeorginaPQ/UrbanCat"
+                            ><FaGithub className="m-1"/>Github</Button>
+                        <Button2 className="text-decoration-none" 
+                            target="_blank" 
+                            href="https://urbancat-f7dce.web.app/"
+                            >Demo</Button2>
+                    </div>
+                </div>
+            </Project>
             <Project className=" p-sm-4 p-lg-5 mb-5 container align-items-center flex-column flex-md-row">
                 <div className="col col-sm-6 pl-2">
                     <Img className="w-100" src={Movies}></Img>
@@ -117,44 +153,6 @@ const Projects = () => {
                         <Button2 className="text-decoration-none" 
                             target="_blank" 
                             href="https://movie-challenge-9f174.web.app/"
-                            >Demo</Button2>
-                    </div>
-                </div>
-            </Project>
-            <Project className="p-3 p-sm-4 p-lg-5 mb-5 container align-items-center flex-column flex-md-row">
-                <div className="col col-sm-6 pl-2">
-                    <Img className="w-100" src={Labnotes}></Img>
-                </div>
-                <div className="w-100">
-                    <div  className="text-right mr-2 font-weight-bold">
-                        <span>Mayo 2020</span>
-                    </div>
-                    <h1 className="display-6">Lab Notes</h1>
-                    <p>An aplication that create, read, update 
-                        and delete notes using React, Firebase and Styled.                        
-                    </p>
-                    <div>
-                        <span className="font-weight-bold">Credits:</span>
-                        <span>Georgina Pérez</span>
-                    </div>
-                    <div>
-                        <span className="font-weight-bold">Role:</span>
-                        <span>Front-End Developer/ UI designer</span>
-                    </div>
-                    
-                    <div className="d-flex flex-wrap flex-md-nowrap justify-content-center">
-                        <Tags>React</Tags>
-                        <Tags>CSS3</Tags>
-                        <Tags>Firebase</Tags>
-                    </div>
-                    <div className="pt-3 d-flex justify-content-center align-items-center">
-                        <Button className="text-decoration-none" 
-                            target="_blank" 
-                            href="https://github.com/GeorginaPQ/GDL004-social-network"
-                            ><FaGithub className="m-1"/>Github</Button>
-                        <Button2 className="text-decoration-none" 
-                            target="_blank" 
-                            href="https://github.com/GeorginaPQ/GDL004-social-network"
                             >Demo</Button2>
                     </div>
                 </div>
